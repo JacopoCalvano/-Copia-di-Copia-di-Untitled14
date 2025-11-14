@@ -877,6 +877,11 @@ submission_df = pd.DataFrame({
 filename = os.path.join(output_dir, 'submission_svm.csv')
 submission_df.to_csv(filename, index=False)
 
+
+# KNN preprocessing for metamodel CSV
+X_knn_test_csv = X_test_csv[knn_features]
+X_knn_test_scaled_csv = scaler_knn.transform(X_knn_test_csv)
+
 # Metamodel CSV
 knn_test_proba_csv = knn_model.predict_proba(X_knn_test_scaled_csv)
 xgb_test_proba_csv = xgb_model.predict_proba(X_xgb_test_csv)
