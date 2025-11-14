@@ -24,7 +24,11 @@
         - `feature_engineering` function call on train, validation & test
         - Selecting a subset of features for each model
 
-3. **Train models**
+3. **Train mono-models**
     - KNN, XGBoost, SVM, Metamodel
 
-4. **Evaluate models**
+4. **Evaluate mono-models**
+5. **Train metamodel**
+    - Metamodel with Logistic Regression
+6. **Evaluate and compare all models**
+7. **Generating CSV**
