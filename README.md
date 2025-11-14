@@ -1,6 +1,7 @@
 # FDS Project 25/26 del team "Copia di Copia di Untitled14"
 
 ### Code Index
+*We suggest **reading first all the text cells** in the [notebook](https://github.com/JacopoCalvano/Copia_di_Copia_di_Untitled14/blob/main/main.ipynb) to get the bigger picture and then go back to read the code.*
 
 0. **Imports + Mounting Drive**
 
