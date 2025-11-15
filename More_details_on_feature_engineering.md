@@ -1,4 +1,4 @@
-# MORE DETAILS ON FEATURE ENGNINEERING
+# MORE DETAILS ON FEATURE ENGINEERING
 
 This file contains a brief description of the functions used for feature engineering (Section 2.I of the notebook)
 
